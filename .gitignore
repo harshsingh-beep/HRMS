@@ -1,0 +1,40 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+
+# Environment
+.env
+.env.local
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Old frontend folder (delete after restart)
+hr-pulse-main/
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
