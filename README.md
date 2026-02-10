@@ -166,6 +166,10 @@ python manage.py test
 cd frontend && npm run test
 ```
 
+## Important Note
+
+> The backend is hosted on Render's free tier, which **spins down after 15 minutes of inactivity**. The first request after inactivity may take **30–60 seconds** to respond while the server wakes up. Subsequent requests will be fast. Please allow a moment on first load.
+
 ## Assumptions & Limitations
 
 - Single admin user — no authentication required (as per assignment scope)
